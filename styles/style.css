@@ -1,6 +1,11 @@
+body {
+  font-family: "Mulish";
+  margin: 0px;
+  background-color: #fffbfa;
+}
+
 * {
     box-sizing: border-box;
-    font-family: Mulish;
 }
 .wrapper {
     margin-right: auto;
@@ -8,10 +13,10 @@
     max-width: 1300px;
   }
 
-/* .header-div {
+ .header-div {
     padding-left: 140px;
     padding-right: 160px;
-} */
+}
 
 #header {
     display:flex; 
@@ -111,14 +116,84 @@ border: 1px solid #D9D9D9;
   }
 
   .hero-banner {
-width: 100%;  
+width: 100%;
+position: relative;  
 }
+
+.hero-banner img {
+width: 100%;
+}
+
 .pirkti {
     position: absolute;
-    left:35%;
-    bottom: 5%;
+    left:31%;
+    bottom: 9%;
     transform: translate(-50%, -50%);
     padding: 15px 18px 15px 18px;
     background-color: black;
     color: white;
+    font-family: Mulish;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 18px; /* 128.571% */
+letter-spacing: 0.3px;
+}
+.icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ 
+
+}
+.isorinis-icon {
+  /* padding: 0px 165px; */
+  width: 1071px;
+  margin: 0 auto;
+  margin-top: 55px;
+  margin-bottom: 111px;
+}
+
+.kokybe, .pristatymas, .akcija, .garantijos {
+  text-align: center;
+}
+
+h6 {
+  text-align: center;
+  font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px; /* 133.333% */
+letter-spacing: 0.1px;
+}
+
+h3 {
+text-align: center;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: 40px; /* 125% */
+letter-spacing: 0.1px;
+}
+.product-block {
+  display: flex;
+  justify-content: space-between;
+  width: 1071px;
+  margin-top: 37px;
+  margin: 0 auto;
+  gap: 10px;
+}
+.product-block img {
+  width: 100%;
+}
+.product-block h6 {
+text-align: left;
+margin: 0 auto;
+}
+
+.preke {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 5px;
+  width: 100%;
 }
